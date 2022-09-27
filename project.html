@@ -3,11 +3,14 @@
 <head>
 <title>Project</title>
 <style>
-   .disc{
+   .disc,#title{
     border: 1px;color: brown;
     background-color:#bdc3c7;
-
-
+    }
+    body{
+        background-color: aquamarine;
+        font-size:larger;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 </style>
 </head>
@@ -21,7 +24,7 @@ Role:-Senior Developer
 •End2end development 
 •Build & Deploy <br>
 <h3 class="disc"><strong>Description:-</strong></h3>
-Processing the data semi structured data like AVRO which is rich in Schema evolution and efficient serialization.
+ Processing the data semi structured data like AVRO which is rich in Schema evolution and efficient serialization.
  Once the data got imported in the from the sqoop as a AVRO file we extract the avro file to edge to generate the 
  schema of that avro file and transfer it to HDFS. Once the data and schema is available in HDFS , the hive table 
  will be created on top of data to process it using the AVSC schema file with the help of AVRO deserializer. 
