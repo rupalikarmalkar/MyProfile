@@ -6,48 +6,75 @@
     <link rel="F:\Anguler\MyProfile\n2.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style>
-        #nav_item,a{
-           border: 5px; color: brown;
-           background-color: beige;
+        #nav_item,
+        a {
+            border: 5px;
+            color: brown;
+            background-color: beige;
             font-size: 22px;
             font-weight: bold;
             text-transform: uppercase;
             text-decoration: none;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
- 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
         }
-    .head_info{
-        text-align: right;
-        background-color: aqua;
-    }
-    body{
-        background-color: bisque;
-    }
+
+        #nav_item a {
+            margin-right: 30px;
+
+        }
+        #follow{
+            margin-right: 20px;
+
+        }
+        .follow_me a{
+            margin-right: 30px;
+            color:orange;
+        }
+
+        .head_info {
+            text-align: right;
+            background-color: aqua;
+
+        }
+
+        body {
+            background-color: bisque;
+        }
+
+        .header_margin span {
+            margin-left: 30px;
+
+        }
+        #mobile_mail_italic{
+            font-style: italic;
+        }
     </style>
 </head>
 
 <body>
     <div class="head_info">
-    <header>
-        <p> <strong><i class="fa fa-user" aria-hidden="true"></i>Rupali Karmalkar &nbsp;&nbsp;&nbsp;<i
-                    class="fa fa-mobile" aria-hidden="true"></i> 7447430084 &nbsp;&nbsp;&nbsp;
-                <i class="fa fa-envelope" aria-hidden="true"></i> abc@gmail.com
+        <header class="header_margin">
+            <span id="mobile_mail_italic"><i class="fa fa-user" aria-hidden="true"></i>Rupali Karmalkar
+            </span>
+            <span><i class="fa fa-mobile" aria-hidden="true"></i> 7447430084 </span>
+            <span id="mobile_mail_italic"> <i class="fa fa-envelope" aria-hidden="true"></i> abc@gmail.com
+            </span>
 
-            </strong>
 
-        </p>
-    </header>
-</div>
+
+        </header>
+    </div>
     <hr>
     <nav id="nav_item">
-        <a href="home.html" target="My_frame"> Home</a>&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="My_frame"> Tech Stack</a>&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="My_frame">Education</a>&nbsp;&nbsp;&nbsp;
-        <a href="project.html" target="My_frame">Project</a>&nbsp;&nbsp;&nbsp;
-        <a href="hobbies.html" target="My_frame">Hobbies</a>&nbsp;&nbsp;&nbsp;
-        <a href="personl.html" target="My_frame">Personal</a>&nbsp;&nbsp;&nbsp;
+        <a href="home.html" target="My_frame"> Home</a>
+        <a href="techStack.html" target="My_frame"> Tech Stack</a>
+        <a href="education.html" target="My_frame">Education</a>
+        <a href="project.html" target="My_frame">Project</a>
+        <a href="hobbies.html" target="My_frame">Hobbies</a>
+        <a href="personl.html" target="My_frame">Personal</a>
         <a href="other.html" target="My_frame">Other</a>
 
     </nav>
@@ -55,19 +82,19 @@
         src="hobbies.html" src="personl.htm" src="other.html" width="1100" height="500"></iframe>
 
     <footer>
-        <p><strong>Follow me on &nbsp;&nbsp;&nbsp;
-                <a href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                &nbsp;&nbsp;&nbsp;
-                <a href="https://twitter.com/i/flow/login"> <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                &nbsp;&nbsp;&nbsp;
-                <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                &nbsp;&nbsp;&nbsp;
-                <a href="https://www.instagram.com/accounts/login/"> <i class="fa fa-instagram"
-                        aria-hidden="true"></i></a>
+        <span id="follow">Follow me on</span>
+        <span class="follow_me"><a href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        </span>
+        <span class="follow_me"> <a href="https://twitter.com/i/flow/login"> <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        </span>
+        <span class="follow_me"><a href="https://www.linkedin.com/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </span>
+        <span class="follow_me"><a href="https://www.instagram.com/accounts/login/"> <i class="fa fa-instagram"
+                    aria-hidden="true"></i></a>
 
 
 
-            </strong> </p>
+        </span>
 
     </footer>
 </body>
